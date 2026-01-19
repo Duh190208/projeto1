@@ -1,0 +1,8 @@
+services:
+  db:
+    image: postgres:15
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: "challenge"
+      POSTGRES_DB: "challenge"
